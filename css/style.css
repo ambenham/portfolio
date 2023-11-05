@@ -8779,11 +8779,17 @@ h1, h2, h3, h4, h5,
     list-style: none;
     margin-bottom: 10px; }
     .ftco-about ul.about-info li span {
-      width: calc(100% - 130px); }
+      width: calc(100% - 200px); }
       .ftco-about ul.about-info li span:first-child {
         font-weight: 600;
         color: #fff;
-        width: 130px; }
+        width: 60px; 
+      padding-top: 5px;
+    text-align: center;}
+        .ftco-about ul.about-info li span:nth-child(2) {
+          font-weight: 600;
+          color: #fff;
+          width: 130px; }
 
 .ftco-about .counter-wrap .text p {
   font-size: 20px; }
@@ -8826,6 +8832,11 @@ h1, h2, h3, h4, h5,
   .skill-list {
     margin: 50px 0px;
   }
+}
+
+#interests-section p {
+  max-width: 900px;
+  text-align: center;
 }
 
 .services-1 {
