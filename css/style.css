@@ -8818,6 +8818,16 @@ h1, h2, h3, h4, h5,
     font-size: 20px;
     color: #fff; }
 
+#skills-section i {
+  font-size: 50px;
+  padding: 20px;
+}
+@media (max-width: 768px) {
+  .skill-list {
+    margin: 50px 0px;
+  }
+}
+
 .services-1 {
   margin-bottom: 40px;
   padding: 2em;
